@@ -20,6 +20,7 @@ public class DemoController {
 	@PostMapping(value = "/save")
 	String demoMessagePost() {
 		System.out.println("This is rest api call");
+		System.out.println("hi");
 		return "This is rest api call for post";
 	}
 	
